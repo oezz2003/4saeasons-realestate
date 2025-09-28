@@ -154,7 +154,7 @@ export default async function CompoundDetailsPage(props: { params: Promise<{ slu
                             <p className="text-muted-foreground mb-4">
                                 Contact us today to learn more about available units and payment plans.
                             </p>
-                             <a href={`https://wa.me/201015670391, I'm interested in ${compound.name}`} target="_blank" rel="noopener noreferrer" className="w-full">
+                             <a href={`https://wa.me/201015670391?text=I'm%20interested%20in%20${encodeURIComponent(compound.name)}`} target="_blank" rel="noopener noreferrer" className="w-full">
                                 <Button size="lg" className="w-full bg-green-500 hover:bg-green-600 text-white">
                                   <WhatsappIcon className="mr-2 h-5 w-5"/> Inquire via WhatsApp
                                 </Button>
