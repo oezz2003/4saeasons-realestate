@@ -44,9 +44,9 @@ export function Footer() {
           <div>
             <h3 className="font-bold mb-4 font-headline">Contact Us</h3>
             <ul className="space-y-2 text-muted-foreground">
-              <li>123 Real Estate St, Cairo, Egypt</li>
+              <li>18 Dr Ezzat Salama - Nasr City</li>
               <li>Email: contact@4seasons.com</li>
-              <li>Phone: +20 123 456 7890</li>
+              <li>Phone: +201015670391</li>
             </ul>
           </div>
         </div>

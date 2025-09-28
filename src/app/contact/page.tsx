@@ -87,7 +87,7 @@ export default function ContactPage() {
                         </div>
                         <div>
                             <h3 className="font-semibold text-foreground">Our Office</h3>
-                            <p>123 Real Estate St, Cairo, Egypt</p>
+                            <p>18 Dr Ezzat Salama - Nasr City</p>
                         </div>
                     </div>
                      <div className="flex items-start gap-4">
@@ -105,7 +105,7 @@ export default function ContactPage() {
                         </div>
                         <div>
                             <h3 className="font-semibold text-foreground">Call Us</h3>
-                            <p>+20 123 456 7890</p>
+                            <p>+201015670391</p>
                         </div>
                     </div>
                 </div>
@@ -115,7 +115,15 @@ export default function ContactPage() {
                     <h2 className="text-2xl font-bold font-headline mb-4 animate-title-reveal">Find Us On The Map</h2>
                 </div>
                 <div className="relative w-full h-80 rounded-lg overflow-hidden shadow-md">
-                   <Image src="https://placehold.co/800x400.png" alt="Location map" data-ai-hint="map location" fill className="object-cover" />
+                   <iframe 
+                        src="https://maps.google.com/maps?q=عزت سلامة مدينة نصر، محافظة القاهرة&output=embed" 
+                        width="100%" 
+                        height="100%" 
+                        style={{ border: 0 }} 
+                        allowFullScreen={true} 
+                        loading="lazy" 
+                        referrerPolicy="no-referrer-when-downgrade">
+                    </iframe>
                 </div>
             </div>
         </div>
